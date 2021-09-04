@@ -1,0 +1,71 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    background-color: hsl(225, 100%, 94%);
+    
+}
+
+.wrapper {
+    margin-top: 20px;
+    background-color: white;
+    height: 680px;
+    border-radius: 20px;
+   
+}
+
+.bild_oben {
+    content: url("./pics/illustration-hero.svg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.summary {
+    word-wrap: normal;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blabla {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.8em;
+    width: 65%;
+    margin: auto;
+}
+
+.item {
+    margin-top: 20px;
+    height: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item a:link {
+    text-decoration: underline;
+}
+
+.choice {
+    margin-top: 20px;
+    height: 6em;
+    line-height: 1.2em;
+    font-size: 18px;
+}
+
+.choice button {
+    width: 80%;
+    height: 56px;
+    border-radius: 20px;
+    font-weight: 900;
+    background-color:mediumblue;
+}
+
